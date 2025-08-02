@@ -12,7 +12,7 @@ public class NotificationBatch {
     @Autowired
     private MailLogicService mailLogic;
 
-    @Scheduled(cron="* * * * * *")
+    @Scheduled(cron="0 0 7 * * *")
     public void doSend(){
     mailLogic.sendDailySummaryEmails();
     }
