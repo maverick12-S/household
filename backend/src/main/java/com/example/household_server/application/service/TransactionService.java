@@ -43,6 +43,8 @@ public class TransactionService {
     public Transaction update(Long id,Transaction transaction){
         if (repository.findById(id).isPresent()) {
             transaction.setId(id);
+            String email = AuthUtil.getEmail();
+            transaction.setEmail(email);
             return repository.save(transaction);
         } else {
             throw new NotFoundException("更新対象のデータが見つかりません。管理者に連絡してください。");
