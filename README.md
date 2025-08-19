@@ -52,7 +52,7 @@ Frontend (React) ----> Backend (Spring Boot) ----> PostgreSQL
 
 ```bash
 git clone https://github.com/maverick12-S/household
-cd household-app
+cd household
 
 【Dockerで構築されるサービス】
 
