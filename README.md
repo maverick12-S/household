@@ -51,7 +51,7 @@ Frontend (React) ----> Backend (Spring Boot) ----> PostgreSQL
 1. **リポジトリをクローン**
 
 ```bash
-git clone https://github.com/yourname/household-app.git
+git clone https://github.com/maverick12-S/household
 cd household-app
 
 【Dockerで構築されるサービス】
@@ -66,7 +66,7 @@ Frontend (React)
 
 【起動コマンド】
 
-docker-compose up --build
+sudo docker-compose up --build
 
 
 【アクセス先】
