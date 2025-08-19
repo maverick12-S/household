@@ -41,7 +41,7 @@ public class TransactionService {
     }
 
     public Transaction update(Long id,Transaction transaction){
-        if (!repository.findById(id).isPresent()) {
+        if (repository.findById(id).isPresent()) {
             transaction.setId(id);
             return repository.save(transaction);
         } else {
