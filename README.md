@@ -54,17 +54,7 @@ Frontend (React) ----> Backend (Spring Boot) ----> PostgreSQL
 git clone https://github.com/maverick12-S/household
 cd household
 
-【Dockerで構築されるサービス】
-
-PostgreSQL
-
-Keycloak
-
-Backend (Spring Boot)
-
-Frontend (React)
-
-【起動コマンド】
+2. **起動**
 
 sudo docker-compose up --build
 
@@ -76,6 +66,16 @@ sudo docker-compose up --build
 バックエンド: http://localhost:8080
 
 Keycloak管理画面: http://localhost:8180
+
+【Dockerで構築されるサービス】
+
+PostgreSQL
+
+Keycloak
+
+Backend (Spring Boot)
+
+Frontend (React)
 
 
 ---
